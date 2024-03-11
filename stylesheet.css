@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.a{
+    color:rgb(8, 251, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:black;
+
+}
+
+nav .left {
+    color:whitesmoke
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(243, 182, 41);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px 0;
+
+}
+
+.firstSection>div {
+    width: 30%;
+
+}
+
+.leftSection {
+    /* background-color: red; */
+    font-size: 2rem;
+
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .btn:hover {
+    color: orange
+}
+
+.rightSection img {
+    /* background-color: red; */
+
+    width: 80%;
+    margin: 50px 0;
+    height: 25rem;
+    border-radius: 45%;
+    border: 3px solid lightgreen;
+    filter: grayscale(.9);
+    transition: .2s;
+}
+.rightSection img:hover{
+    filter: grayscale(0);
+    transform: scale(1.3) rotate(8deg);
+    
+
+}
+
+.purple {
+   
+    font-size: 3rem;
+    
+    
+    font-weight: 1000;
+    /* letter-spacing: 10px; */
+    background-image: url(https://thumbs.dreamstime.com/z/big-ben-london-autumn-leaves-32915756.jpg?w=992);
+    background-size: cover;
+    /* background-position: center; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent ;
+
+}
+
+#element {
+    color: rgb(59, 228, 73);
+
+}
+
